@@ -4,6 +4,7 @@ install:
 	pip install -r requirements.txt
 format:
 	# format code
+	black .
 lint:
 	# flake8 or pylint
 test:
